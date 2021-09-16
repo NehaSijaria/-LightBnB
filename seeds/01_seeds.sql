@@ -1,6 +1,6 @@
 INSERT INTO users (name, email)
 VALUES
-    ('Eva Stanley', 'sebastianguerra@ymail.com'),
+    ('Eva samy', 'sebastianguerra@ymail.com'),
     ('Kia Rodri', 'kia@abc.com'),
     ('Perry samby', 'perry@abc.com');
 
