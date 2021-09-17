@@ -39,7 +39,7 @@ CREATE TABLE reservations (
   property_id INTEGER REFERENCES properties(id) ON DELETE CASCADE,
   guest_id INTEGER REFERENCES users(id) ON DELETE CASCADE
 );
-
+x`
 CREATE TABLE property_reviews (
   id SERIAL PRIMARY KEY NOT NULL,
   guest_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
